@@ -1,0 +1,77 @@
+
+.maincontainer{
+
+    
+        background-color: aliceblue;
+       
+        position:absolute;
+        top: 50%;
+     left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+     
+}
+.inputs{
+    margin: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: end;
+    
+}
+label{
+    margin-right: 1.3rem;
+    text-decoration:dashed;
+    font-family: "Ubuntu";
+    
+}
+.loginredirect{
+    color: black;
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+}
+input{
+  font-family: inherit;
+  width: auto;
+  border: 0;
+  border-bottom: 2px solid gray ;
+  outline: 0;
+  font-size: 1rem;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  
+  
+  
+  
+  
+  background: transparent;
+ 
+}
+#errors{
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+
+}
+#noti
+{
+    color:rgb(7, 255, 7);
+    display: none;
+    justify-content: right;
+    padding: 1rem;
+    
+    
+    
+}
+#submitbutton{
+    background-color:bisque;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-left:28rem;
+    display: flex;
+    justify-content: center;
+}
+
+

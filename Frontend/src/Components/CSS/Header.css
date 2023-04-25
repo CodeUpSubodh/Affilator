@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: white;
+}
+.heading
+{
+    font:"Ubuntu";
+    color:whitesmoke;
+}
+.nav
+{
+    display: flexbox;
+    width: 100%;
+    height: 4rem;
+    background-color:  #37474F;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    overflow:hidden
+}
+.logo{
+    
+    align-items: flex-start;
+    margin-right: auto;
+    list-style: none;
+}
+.links{
+    align-items: flex-end;
+    margin-left: auto;
+    float: right;
+    display: flexbox;
+    list-style: none;
+    color:whitesmoke;
+    font-weight:500;
+    overflow:initial;
+    font-size:large;
+    
+
+}
+.links li{
+    float: left;
+    margin: 1rem;
+    overflow: none;
+    font-size: larger;
+
+    font-size: larger;
+    margin-bottom: 0px;
+    
+
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.sublinks{
+    float: left;
+    list-style: none;
+    margin: 1rem;
+    margin-bottom: 0;
+    font-size:xx-large;
+}
+
+
+.linkspoints :hover{
+    background-color: #263238;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    
+    
+    
+
+}
+#mobbar{
+    display: none;
+}
